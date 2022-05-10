@@ -1,0 +1,138 @@
+.form{
+    /* border: 1px solid green; */
+}
+
+.agree_statement{
+    /* border: 1px solid red; */
+    display: block;
+}
+
+.agree_statement_link{
+    text-decoration: none;
+    color: #007aff;
+}
+
+.agree_statement_link:hover{
+    color: #e26525;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.agree_statement_link:active{
+    color: #007aff;
+}
+
+.help_options{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.help_options_container{
+    font-size: 0.85rem;
+}
+
+.help_option_link{
+    text-decoration: none;
+    color: #007aff;
+}
+
+.help_option_link:hover{
+    cursor: pointer;
+    color: #e26525;
+    text-decoration: underline;
+}
+
+.help_option_link:active{
+    color: #007aff;
+}
+
+.help_option{
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+}
+
+.help_triangle_icon{
+    font-size: 0.65rem;
+}
+
+.help_triangle_icon_hidden{
+    opacity: 0;
+}
+
+.keepMeSignedIn_title_container{
+    /* outline: 1px solid red; */
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.keepMeSignedIn_title_container > label{
+    font-weight: normal;
+}
+
+.keepMeSignedIn_detail_container{
+    outline: 1px solid slategrey;
+    border-radius: 0.2rem;
+    padding: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    color: slategrey;
+}
+
+.detail_icon{
+    font-size: 0.65rem;
+}
+
+.detail_word{
+    color: #007aff;
+}
+
+.detail_word:hover{
+    color: #e26525;
+    text-decoration: underline;
+}
+
+.detail_word:active{
+    color: #007aff;
+}
+
+.back_to_register_page_container{
+    /* outline: 1px solid green; */
+    width: 25%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.new_to_amazon_container{
+    display: flex;
+    align-items: center;
+    color: rgba(00, 00, 00, 0.6);
+}
+
+.empty_span{
+    flex-grow: 1;
+    border-top: 1px solid rgb(226, 224, 224);
+}
+
+.back_to_register_page_btn{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    border: 1px solid slategrey;
+    background: rgb(241, 241, 241);
+    font-size: 0.85rem;
+}
+
+.back_to_register_page_btn:hover{
+    background: rgb(221, 220, 220);
+}
+
+.back_to_register_page_btn:active{
+    background: rgb(241, 241, 241);
+}

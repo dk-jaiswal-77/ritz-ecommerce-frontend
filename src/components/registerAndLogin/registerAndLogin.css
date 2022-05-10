@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.registerAndLogin_container{
+    /* border: 1px solid red; */
+    height: 100vh;
+}
+
+.ritzLogo_container{
+    /* border: 1px solid green; */
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.ritz_logo{
+    width: 5%;
+}
+
+.medium_container{
+    border: 1px solid rgb(207, 205, 205);
+    border-radius: 0.25rem;
+    width: 25%;
+    margin: 0 auto;
+    padding: 1.4%;
+}
