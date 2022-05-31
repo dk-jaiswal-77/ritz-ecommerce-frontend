@@ -1,0 +1,63 @@
+.menubar{
+    background: #232f3e;
+    padding: 0.3rem 1rem;
+    display: flex;
+}
+
+.menubar_for{
+    border: 1px solid transparent;
+    border-radius: 0.15rem;
+    color: white;
+    font-size: 0.85rem;
+    padding: 0.3rem 1rem;
+}
+
+.menubar_for:hover{
+    border: 1px solid #e26525;
+    color: #e26525;
+}
+
+.menubar_popup_background{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    background : rgba(00, 00, 00, 0.2);
+    position: absolute;
+}
+
+.menubar_popup{
+    min-width: max-content;
+    min-height: max-content;
+    background : white;
+    position: fixed;
+    display: flex;
+    /* padding: 1rem; */
+    /* gap: 1.5rem; */
+    border-radius: 0.3rem;
+}
+
+.menubar_popup > .popupOuterContainer:nth-child(odd){
+    background: rgba(00, 00, 00, 0.02);
+}
+
+.popupOuterContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 1.5rem;
+    /* border-radius: 0.2rem; */
+}
+
+.popupOuterContainer > span{
+    font-size: 0.85rem;
+    color: rgba(00, 00, 00, 0.8);
+}
+
+.popupOuterContainer > span:hover{
+    color: #e26525;
+    text-decoration: underline;
+}
+
+.popupOuterContainer > h4{
+    color: #db472a;
+}

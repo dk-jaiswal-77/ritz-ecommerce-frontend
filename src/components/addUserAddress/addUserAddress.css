@@ -1,0 +1,68 @@
+.addUserAddress_form{
+    /* border: 1px solid red; */
+    width: 35%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.addUserAddress_form_heading{
+    margin-bottom: 1.5rem;
+}
+
+.addUserAddress_form > * label{
+    /* border: 1px solid green; */
+    font-size: 0.85rem;
+    letter-spacing: 0.01rem;
+}
+
+.addUserAddress_form select{
+    box-shadow: 0px 2px 5px 0px rgba(00, 00, 00, 0.2);
+    border-radius: 0.5rem;
+}
+
+.flex-direction-column{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.default_address_check{
+    margin: 1rem 0rem;
+    /* border: 1px solid green; */
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.default_address_check > label{
+    font-weight: normal;
+    color: black;
+}
+
+.submit_btn_container{
+    margin-top: 0.9rem;
+}
+
+.add_address_btn{
+    border: none;
+    width: max-content;
+    background: #ffd814;
+    padding: 0.6rem 1rem;
+    border-radius: 0.4rem;
+    box-shadow: 0px 0px 5px 0px rgba(00, 00, 00, 0.1);
+}
+
+.add_address_btn:hover{
+    background: #edc80e;
+}
+
+.add_address_btn:active{
+    background: #ffd814;
+}
+
+.town_and_state_container{
+    display: flex;
+    gap: 1rem;
+}

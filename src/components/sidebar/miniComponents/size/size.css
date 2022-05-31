@@ -1,0 +1,28 @@
+.sidebar_size_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.3rem;
+}
+
+.sidebar_size_container > span{
+    border: 1px solid slategrey;
+    border-radius: 0.2rem;
+    font-size: 0.75rem;
+    color: rgba(00, 00, 00, 0.9);
+    padding: 0.3rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar_size_container > span:hover{
+    border-color: #db472a;
+    color: #db472a;
+    background: rgb(249, 248, 248);
+}
+
+.sidebar_size_container > span:active{
+    border-color: slategrey;
+    color: rgba(00, 00, 00, 0.9);
+    background: white;
+}

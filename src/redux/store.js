@@ -1,6 +1,15 @@
 import {createStore, combineReducers, applyMiddleware, compose} from "redux";
 
-const rootReducer = combineReducers({});
+// importing reducers
+import updateProductReducer from "./updateProduct/reducer";
+import updateQueryParamsReducer from "./updateQueryParams/reducer";
+import updateCartReducer from "./updateCart/reducer";
+
+const rootReducer = combineReducers({
+    products : updateProductReducer, 
+    queryParams : updateQueryParamsReducer, 
+    cart : updateCartReducer
+});
 
 const thunkMiddleware = (store) => (next) => (action) => {
     if(typeof(action) === "function")
@@ -9,7 +18,6 @@ const thunkMiddleware = (store) => (next) => (action) => {
     }
     next(action);
 }
-
 
 
 const store = createStore(rootReducer, compose(applyMiddleware(thunkMiddleware), window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()));

@@ -1,0 +1,102 @@
+.navbar{
+    background: #131921;
+    padding: 0.25rem 1rem;
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.navbar > *{
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+}
+
+.navbarLink{
+    padding: 0.3rem 0.6rem;
+    text-decoration: none;
+    color: white;
+    gap: 0.25rem;
+    border: 1px solid transparent;
+    border-radius: 0.2rem;
+}
+
+.navbarLink:hover{
+    border: 1px solid white;
+}
+
+.navbarSearchForm{
+    margin: 0rem 1rem;
+    flex-grow: 1;
+    align-items: stretch;
+    padding: 0.4rem 0rem;
+}
+
+.navbarSearchForm > *{
+    border: none;
+    outline: none;
+    border-radius: 0;
+}
+
+.navbarSearchForm > select#for{
+    border-radius: 0.3rem 0 0 0.3rem;
+    color: rgba(00, 00, 00, 0.9);
+}
+
+.navbarCompanyLogo > img{
+    width: 2.7rem;
+}
+
+.navbarTriangleDownIcon{
+    color: rgb(211, 208, 208);
+    font-size: 0.7rem;
+    align-self: flex-end;   
+    transform: translateY(-65%);
+}
+
+.navbarLocationIcon{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: rgb(237, 229, 229);
+    transform: translateY(30%);
+}
+
+.navbarCartIcon{
+    font-size: 2.2rem;
+    color: rgb(233, 231, 231);
+}
+
+.navbarUserCart > .navbarCard > .upperSpan{
+    color: #e64b2e;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+
+.navbarSearchForm > label{
+    flex-grow: 1;
+}
+
+#type{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 0%;
+    color: rgba(00, 00, 00, 0.6);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.submitSearchBtn{
+    padding: 0rem 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0.3rem 0.3rem 0;
+    background: #febd69;
+}
+
+.submitSearchBtn > .searchIcon{
+    font-size: 1.5rem;
+    color: rgba(00, 00, 00, 0.8);
+}

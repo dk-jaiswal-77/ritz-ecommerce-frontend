@@ -1,0 +1,18 @@
+.sidebar_type_container{
+    border-right: 1px solid slategrey;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.sidebar_type_container > div.miniComponent_container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.miniComponent_heading{
+    font-size: 0.85rem;
+    color: rgba(00, 00, 00, 0.9);
+}

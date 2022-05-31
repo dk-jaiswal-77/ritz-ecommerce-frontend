@@ -1,0 +1,18 @@
+.sidebar_discount_container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.sidebar_discount_container > span{
+    font-size: 0.9rem;
+    color: rgba(00, 00, 00, 0.9);
+}
+
+.sidebar_discount_container > span:hover{
+    color: #e67a00;
+}
+
+.sidebar_discount_container > span:active{
+    color: rgba(00, 00, 00, 0.9);
+}
